@@ -85,6 +85,7 @@ h1 {
     text-decoration: underline orange;
     font-size: 100px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
 }
 
 h2 {
@@ -139,7 +140,7 @@ iframe {
 #head-filter-buttons {
     flex: 1;
     text-align: right;
-    padding-top: 250px;
+    padding-top: 150px;
     margin-right: 1%;
 }
 
@@ -150,6 +151,27 @@ iframe {
 .dash-map {
     flex: 1;
 }
+
+#dash-graphs {
+    display: flex;
+}
+
+.dash-graph1 {
+    flex: 2;
+}
+
+.dash-graph2 {
+    flex: 3;
+}
+
+.dash-graph2 iframe {
+    width: 650px;
+}
+
+/* ==========================This will be the Explanation specific styling section========================== */
+
+
+
 /* =================Media Queries for responsive design================= */
 @media (max-width: 768px) {
     .container {
