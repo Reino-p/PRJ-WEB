@@ -250,9 +250,17 @@ img {
     flex: 1;
 }
 
-/* ==========================This will be the Explanation specific styling section========================== */
+/* ==========================This will be the contact specific styling section========================== */
 
+#contact-main {
+    display: flex;
+}
 
+.contact-section {
+    flex: 1;
+    text-align: left;
+    margin-left: 2%;
+}
 
 /* =================Media Queries for responsive design================= */
 @media (max-width: 768px) {
