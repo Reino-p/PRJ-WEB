@@ -1,0 +1,19 @@
+{
+  "name": "weather-api",
+  "version": "1.0.0",
+  "main": "meteo.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "xlsx": "^0.18.5"
+  },
+  "type": "module"
+}
